@@ -39,3 +39,8 @@
     left: 42%;
     
 }
+.Selection>div>h1{
+    margin-left: 30rem;
+    color: yellow;
+    margin-top: 2.5rem;
+}
