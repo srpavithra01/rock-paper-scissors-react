@@ -1,0 +1,30 @@
+.Points{
+    display: flex;
+    justify-content: center;
+}
+.Points>nav{
+    width: 70%;
+    border: 3px solid var(--Gray);
+    border-radius: 5px;
+    margin-top: 3rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Points>nav>div>img{
+    width: 70%;
+}
+.score{
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+}
+.score>h3{
+    font-size: 3.5rem;
+    color: var(--Navy);
+}
+.score>h4{
+    color: var(--Blue);
+}

@@ -1,0 +1,41 @@
+.Selection{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.Selection>div{
+    background-image: url("./bg-triangle.svg");
+    background-position: center;
+    width: 70%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    padding: 5rem 0rem;
+    position: relative;
+}
+.Selection>div>article{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+}
+.art1{
+    border: 10px solid var(--Blue);
+    top: 0;
+    left: 29%;
+}
+.art2{
+    border: 10px solid var(--Gold);
+    top: 0;
+    right: 29%;
+    
+}
+.art3{
+    border: 10px solid var(--Red);
+    bottom: 0;
+    left: 42%;
+    
+}

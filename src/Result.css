@@ -1,0 +1,47 @@
+.Result{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.Result>section{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Result>section>div{
+    color: white;
+}
+.Result>section>div>h3{
+    text-align: center;
+}
+
+.Result>section>div>article{
+    border-radius: 50%;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.resArt1{
+    border: 10px solid var(--Blue) ;
+}
+.resArt2{
+    border: 10px solid var(--Red) ;
+}
+.Result button{
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    border: none;
+    color: var(--Gray);
+}
+
+.Result>section>div>h1{
+    color: yellow;
+    margin-bottom: 2rem;
+    
+}
