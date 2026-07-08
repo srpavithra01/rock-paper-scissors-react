@@ -21,7 +21,7 @@ const Selection = (props) => {
         })
       }
       
-      
+      <h1>Pick One</h1>
       </div>
     </div>
   )
